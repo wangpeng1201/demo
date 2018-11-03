@@ -15,12 +15,15 @@ public class CityController {
     public List<City> all(){
         List citys=new ArrayList();
         City a=new City();
+        a.setId(1L);
         a.setAddress("湖北省");
         a.setName("武汉市");
         City b=new City();
+        a.setId(2L);
         b.setAddress("湖南省");
         b.setName("长沙市");
         City c=new City();
+        a.setId(3L);
         c.setAddress("江西省");
         c.setName("南昌市");
         citys.add(a);
